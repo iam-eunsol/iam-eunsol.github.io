@@ -60,6 +60,7 @@ h2.h{margin:0;display:flex;align-items:center;gap:14px;font-size:clamp(32px,5vw,
 .pc-tile{flex:0 0 36%;border-radius:16px;display:flex;align-items:center;justify-content:center;background:var(--tile)}
 .pc-tile img{width:100%;height:100%;object-fit:cover;border-radius:16px;display:block}
 .pc-tile.img{background:none}
+.pc-tile.term{font-family:var(--serif);font-size:clamp(28px,3vw,38px);line-height:1.15;text-align:center;padding:20px}
 .pc-tile.fig{flex:0 0 46%;padding:14px}
 .pc-col{flex-direction:column;gap:6px}
 .pc-col .pc-tile.fig{flex:0 0 260px;height:260px;min-height:0;display:flex;align-items:center;justify-content:center}

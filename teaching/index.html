@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Jost:wght@400;500;600&amp;display=swap">
-<link rel="stylesheet" href="../assets/css/site.css?v=a50ba4f6">
+<link rel="stylesheet" href="../assets/css/site.css?v=b60dae7b">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -38,10 +38,32 @@
 
     <section style="padding:0 var(--x)">
       <h2 class="h h-sub"><svg class="star" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M12.00,2.60 L14.53,9.12 L21.51,9.51 L16.09,13.93 L17.88,20.69 L12.00,16.90 L6.12,20.69 L7.91,13.93 L2.49,9.51 L9.47,9.12 Z"/></svg> As instructor</h2>
-      <div class="cards">
-        <article class="course"><div class="band" style="background:#F0D9BA">FALL 2026 · NOW</div><div class="cb"><h3>MIST 4600: Computer Programming in Business</h3><p>Undergraduate</p><p class="where">Terry College of Business, University of Georgia</p></div></article>
-        <article class="course"><div class="band" style="background:#E5E6D8">SUMMER 2023</div><div class="cb"><h3>Information Technology in Business and Society</h3><p>Undergraduate</p><p class="where">NYU Stern School of Business</p><p class="where">Instructor evaluation 4.38 / 5</p></div></article>
+      <div data-carousel-wrap>
+      <div class="car" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Courses taught as instructor (use left and right arrow keys)">
+        <article class="pc" style="--tile:#F0D9BA">
+          <div class="pc-tile term"><span>Fall 2026<br>Now</span></div>
+          <div class="pc-text">
+            <h3>MIST 4600: Computer Programming in Business</h3>
+            <p class="authors">Undergraduate · Terry College of Business, University of Georgia</p>
+          </div>
+        </article>
+        <article class="pc" style="--tile:#E5E6D8">
+          <div class="pc-tile term"><span>Summer 2023</span></div>
+          <div class="pc-text">
+            <h3>Information Technology in Business and Society</h3>
+            <p class="authors">Undergraduate · NYU Stern School of Business</p><p class="sum">Instructor evaluation 4.38 / 5</p>
+          </div>
+        </article>
+        <button type="button" class="car-side prev" data-prev aria-label="Previous course">←</button>
+        <button type="button" class="car-side next" data-next aria-label="Next course">→</button>
       </div>
+      <div class="car-nav">
+        <button type="button" class="car-bottom prev" data-prev aria-label="Previous course">←</button>
+        <button type="button" class="dotbtn" aria-label="Show course 1"></button><button type="button" class="dotbtn" aria-label="Show course 2"></button>
+        <button type="button" class="car-bottom next" data-next aria-label="Next course">→</button>
+      </div>
+      </div>
+
       <h2 class="h" style="margin:72px 0 24px"><svg class="star" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M12.00,2.60 L14.53,9.12 L21.51,9.51 L16.09,13.93 L17.88,20.69 L12.00,16.90 L6.12,20.69 L7.91,13.93 L2.49,9.51 L9.47,9.12 Z"/></svg> As teaching assistant</h2>
       <div class="cards">
         <article class="course"><div class="band" style="background:#EDD5CB">FALL 2023</div><div class="cb"><h3>Causal Inference</h3><p>Graduate</p><p class="where">NYU Stern School of Business</p></div></article>
@@ -57,6 +79,6 @@
     <span class="links"><a href="mailto:eunsol.cho@uga.edu">eunsol.cho@uga.edu</a><a href="https://www.linkedin.com/in/eunsol--cho">LinkedIn</a></span>
   </footer>
 </div>
-<script src="../assets/js/site.js?v=a50ba4f6"></script>
+<script src="../assets/js/site.js?v=b60dae7b"></script>
 </body>
 </html>
