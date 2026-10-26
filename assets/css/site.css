@@ -51,7 +51,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400}
 h2.h{margin:0;display:flex;align-items:center;gap:14px;font-size:clamp(32px,5vw,42px)}
 /* carousel */
 .car{position:relative;height:470px;margin-top:28px;overflow:hidden}
-.pc{position:absolute;top:0;left:50%;width:64%;height:100%;border-radius:24px;padding:14px;display:flex;gap:26px;background:var(--card);border:1px solid var(--rule);transition:transform 550ms cubic-bezier(.2,.75,.2,1),opacity 450ms ease;transform:translateX(calc(-50% + var(--off) * (100% + 72px))) scale(var(--sc));opacity:var(--op);z-index:var(--z)}
+.pc{position:absolute;top:0;left:50%;width:56%;height:100%;border-radius:24px;padding:14px;display:flex;gap:26px;background:var(--card);border:1px solid var(--rule);transition:transform 550ms cubic-bezier(.2,.75,.2,1),opacity 450ms ease;transform:translateX(calc(-50% + var(--off) * (100% + 72px))) scale(var(--sc));opacity:var(--op);z-index:var(--z)}
 .pc.is-current{box-shadow:0 14px 32px rgba(74,63,42,.08)}
 .pc.is-peek{cursor:pointer}
 .pc.is-hidden{pointer-events:none}
@@ -81,7 +81,7 @@ h2.h{margin:0;display:flex;align-items:center;gap:14px;font-size:clamp(32px,5vw,
 .pc-text .pill{align-self:flex-start;padding:10px 20px;font-size:16px;margin-top:6px}
 .car-side{position:absolute;top:50%;transform:translate(-50%,-50%);z-index:30;width:52px;height:52px;border-radius:50%;font-size:20px;cursor:pointer;border:1.5px solid var(--ink);background:var(--bg)}
 .car-side.next,.car-bottom.next{background:var(--ink);color:var(--bg);border:0}
-.car-side.prev{left:calc(18% - 40px)}.car-side.next{left:calc(82% + 40px)}
+.car-side.prev{left:calc(22% - 40px)}.car-side.next{left:calc(78% + 40px)}
 .car-nav{margin-top:20px;display:flex;justify-content:center;align-items:center;gap:10px}
 .car-bottom{display:none;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--ink);background:var(--bg);font-size:18px;cursor:pointer;align-items:center;justify-content:center}
 .dotbtn{width:12px;height:12px;border-radius:999px;border:0;padding:0;cursor:pointer;background:var(--rule);transition:width .3s}
