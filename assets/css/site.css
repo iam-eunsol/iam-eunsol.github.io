@@ -120,7 +120,7 @@ h2.h{margin:0;display:flex;align-items:center;gap:14px;font-size:clamp(32px,5vw,
 .rows .when{color:var(--muted);font-size:16px;padding-top:3px}
 .rows .muted{color:var(--muted);font-size:16px}
 .rows .ct{font-family:var(--serif);font-size:24px}
-.h-sub{margin:72px 0 22px}
+h2.h.h-sub{margin:64px 0 24px}
 .cards{display:flex;flex-wrap:wrap;gap:20px}
 .course{flex:1 1 340px;min-width:0;background:var(--card);border:1px solid var(--rule);border-radius:22px;padding:14px}
 .course .band{border-radius:16px;padding:22px;font-size:15px;font-weight:600;letter-spacing:.14em}
