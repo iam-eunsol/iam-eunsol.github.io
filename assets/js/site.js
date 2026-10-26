@@ -13,7 +13,16 @@
         if(off!==0){var au=c.querySelector('audio'); if(au)au.pause();}
       });
       dots.forEach(function(d,k){d.setAttribute('aria-current',k===i?'true':'false')});
+      fit();
     }
+    // size the stage to the current card so short cards don't leave empty space
+    function fit(){
+      var c=cards[i]; c.style.height='auto';
+      var h=c.offsetHeight; c.style.height='';
+      car.style.height=h+'px';
+    }
+    window.addEventListener('resize',fit);
+    if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
     function go(k){i=(k+n)%n;render()}
     wrap.querySelectorAll('[data-prev]').forEach(function(b){b.addEventListener('click',function(){go(i-1)})});
     wrap.querySelectorAll('[data-next]').forEach(function(b){b.addEventListener('click',function(){go(i+1)})});
