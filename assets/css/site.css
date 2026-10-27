@@ -131,6 +131,14 @@ h2.h.h-sub{margin:64px 0 24px}
 .course .where{font-size:16px;color:var(--muted)}
 .course .took{margin-top:8px;padding-top:12px;border-top:1px solid var(--rule);font-size:17px;line-height:1.55}
 .course .tag{margin-top:6px}
+.pgrid{margin-top:28px}
+.pcard{display:flex;flex-direction:column}
+.pcard .band{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:14px;line-height:1.4}
+.pcard .band svg{flex:0 0 auto}
+.pcard .cb{flex:1}
+.pcard h3{font-size:25px}
+.pcard .sum{font-size:17px;line-height:1.55;margin-top:4px}
+.pcard .textlink{margin-top:auto;padding-top:8px;align-self:flex-start}
 .songs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
 .song{background:var(--card);border:1px solid var(--rule);border-radius:22px;padding:12px;display:flex;flex-direction:column;gap:14px}
 .song img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:16px;display:block}
